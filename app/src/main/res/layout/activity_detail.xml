@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/ivFoto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/magung"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tvNamaMasjid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"
+            android:text="Nama Masjid"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvKeteranganMasjid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"
+            android:text="Keterangan Masjid"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
